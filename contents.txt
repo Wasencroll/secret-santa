@@ -1,0 +1,15 @@
+title, Secret Santa 2018;
+subtitle1, The Draw for our Family;
+greeting, Hello everyone!;
+intro, As Christmas is getting closer fast, you will find your secret santa assignments and some guidelines in this mail...;
+announcement, And you will be the secret santa for...;
+subtitle2, Rules;
+rules-intro, Here are a few things to consider...;
+rules, Price // Gift wrapping // Name label for the recipient;
+outro, If you have any questions, please don't hesitate to get back to me. In the meantime, I am looking forward
+to celebrating Christmas with you!;
+goodbye, Alexander;
+alt1, This is a festive christmas banner used as email header.;
+alt2, Your Secret Santa partner hides behind this image!;
+preheader, Finally, the name draw for this year's family secret santa is here...Find out who you got!;
+subject, Family Secret Santa 2018: The Draw;

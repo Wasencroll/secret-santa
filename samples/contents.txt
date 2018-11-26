@@ -1,0 +1,13 @@
+title, [enter title text];
+subtitle1, [enter subtitle1 text];
+greeting, [enter greeting text];
+intro, [enter intro text];
+subtitle2, [enter subtitle2 text];
+rules-intro, [enter rules-intro text];
+rules, [rule1 // rule2 // rule3];
+outro, [enter outro text];
+goodbye, [enter goodbye text];
+alt1, [image1 alt text];
+alt2, [image2 alt text];
+preheader, [email preheader/preview text];
+subject, [email subject text];
