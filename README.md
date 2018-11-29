@@ -12,9 +12,9 @@ and sends out these assignments via email
 
 ## How things work
 * first make sure that you change the files 'participants.txt' and 'contents.txt' in the root/main directory
-** In 'participants.txt' you should enter your participants in the format "Name, email-adress" (without the ""). Each person
+   * In 'participants.txt' you should enter your participants in the format "Name, email-adress" (without the ""). Each person
 should be written on a new line in this file. You do not need to put anything at the end of a line.
-** In 'contents.txt' add the text you would like to show in your email. The format is "section, text" (without "") where
+   * In 'contents.txt' add the text you would like to show in your email. The format is "section, text" (without "") where
 section refers to a specific part of the email. Do not change the names of the sections as the email generating function will
 not pick up your text if you do so. Only change the text after the ",". The comma separates section from text. Within your text
 however, you can use commas if you wish to do so. End your text with a plain semicolon to tell the program that the next
