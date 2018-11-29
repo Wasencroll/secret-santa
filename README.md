@@ -20,9 +20,9 @@ not pick up your text if you do so. Only change the text after the ",". The comm
 however, you can use commas if you wish to do so. End your text with a plain semicolon to tell the program that the next
 section starts.
 
-**Note:**
-* The rules in the rules section need to be separated by a double slash ("//") as you can see in the example. This
-tells the program where one rule ends and the next one starts.
-* You can find a layout of all sections in [this image](https://github.com/Wasencroll/secret-santa/doc/email_sections.png).
-* In addition to the sections detailed in the image, you can also define the subject line of your email as well as a preheader
-text that will only show up in the email preview in an email client.
+   **Note:**
+   * The rules in the rules section need to be separated by a double slash ("//") as you can see in the example. This
+   tells the program where one rule ends and the next one starts.
+   * You can find a layout of all sections in [this image](https://github.com/Wasencroll/secret-santa/tree/master/doc/email_sections.png).
+   * In addition to the sections detailed in the image, you can also define the subject line of your email as well as a preheader
+   text that will only show up in the email preview in an email client.
