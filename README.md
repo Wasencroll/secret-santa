@@ -67,8 +67,9 @@ My mail construction seems to work out on
 * GMX Web
 * Yahoo Web
 * Outlook on Mac
-    * sent to @gmx, @yahoo, @icloud, exchange mail adresses
+    * sent to @gmx, @yahoo, @icloud, exchange mail addresses
 * Apple Mail on Mac/iOS
 
 [Resource for designing an email template](https://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919)
+
 [Resource for sending email using python](https://www.pythonforbeginners.com/code-snippets-source-code/using-python-to-send-email)
