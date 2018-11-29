@@ -34,9 +34,9 @@ just leave the file untouched or delete it. The file should always start with th
 exclude in the format "name1, name2;" where **name2** cannot be assigned to **name1**.
 
    **Note:**
-   * You do not have to exclude a name for every person, if you just have three conditions, that's find too.
+   * You do not have to exclude a name for every person, if you just have three conditions, that's fine too.
    * The program is set up to record the draw from this year into a file just like "draw2017.txt" (I wrote this 2018). This
-   makes the draw next year much simpler, because the exclude condition are already on file and the program automatically knows where
+   makes the draw next year much simpler, because the exclude conditions are already on file and the program automatically knows where
    to look for them. Again, if you do not wish to exclude any names next year, simply delete the file before running the program.
 
 * Finally, you should run the main function **santa(fromAddr, password, smtp, port)**.
@@ -48,4 +48,27 @@ exclude in the format "name1, name2;" where **name2** cannot be assigned to **na
     to force the program to use an SSL connection. In this case, the gmail port was 465. Make sure your connection details are
     correct and for SSL.
 
+## Running Secret Santa
+The programm will now do its thing: load contents and participants, see if there are any draws from last year to consider (excludes)
+and shuffle the participants until the excludes won't lead to a possible deadlock for the last name assignments.
 
+For each name in the participant list, the program then randomly draws a name from the list (excluding self, and a possible defined
+in the "draw2017.txt" file), then render that name onto the /images/name-image.jpg image and finally construct the email using the
+images and contents from file. Finally, the mail is sent before iterating to the next name in the list.
+
+
+## Resources
+I've used two main sources for my program, mainly for the "sending mails from python" and the "creating an email template" parts.
+Particularly, the second one turned out to be a real pain as many mail providers display emails in different ways (supporting different
+CSS).
+
+My mail construction seems to work out on
+* Gmail Web
+* GMX Web
+* Yahoo Web
+* Outlook on Mac
+    * sent to @gmx, @yahoo, @icloud, exchange mail adresses
+* Apple Mail on Mac/iOS
+
+[Resource for designing an email template](https://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919)
+[Resource for sending email using python](https://www.pythonforbeginners.com/code-snippets-source-code/using-python-to-send-email)

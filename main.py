@@ -461,7 +461,7 @@ def santa (fromAddr, password, smtp, port):
         new_draw.append([gives, receives])
 
     # saving this year's draw to file for next year's draw name excluding
-    with open('private/draw'+str(datetime.datetime.now().year)+'.txt', 'w') as f:
+    with open('draw'+str(datetime.datetime.now().year)+'.txt', 'w') as f:
         for sub in new_draw:
             f.write(str(sub[0]) + ', ' + str(sub[1]) + ';\n')
 
